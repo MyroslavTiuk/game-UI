@@ -1,0 +1,49 @@
+.wrapperProfile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #131417;
+  padding: 20px;
+}
+.containerPhoto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+}
+.containerInfo {
+  color: #fff;
+}
+.containerInfoName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.InfoSub { 
+  font-family: 'BLENDERPRO-MEDIUM';
+  color: rgb(232, 114, 224);
+}
+.iconEdit {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+  background-color: #131417;
+  cursor: pointer;
+}
+.infoName {
+  font-family: 'BLENDERPRO-MEDIUM';
+  font-size: 32px;
+  margin-bottom: 6px;
+}
+.account-icon {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.edit-icon {
+  width: 20px;
+  height: 20px;
+  margin-top: 18px;
+}

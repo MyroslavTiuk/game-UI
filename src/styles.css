@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "BLENDERPRO-BOLD";
+  src: local("BLENDERPRO-BOLD"),
+   url("./assets/fonts/BLENDERPRO-BOLD.TTF") format("truetype");
+  font-weight: bold;
+  }
+  
+@font-face {
+  font-family: "BLENDERPRO-MEDIUM";
+  src: local("BLENDERPRO-MEDIUM"),
+   url("./assets/fonts/BLENDERPRO-MEDIUM.TTF") format("truetype");
+  font-weight: 500;
+  }
+
+@font-face {
+  font-family: "BLENDERPRO-HEAVY";
+  src: local("BLENDERPRO-HEAVY"),
+   url("./assets/fonts/BLENDERPRO-HEAVY.TTF") format("truetype");
+  /* font-weight: 500; */
+  }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  /* margin: 1rem; */
+  text-align: center;
+  background-color: 'green';
+}
+
+.nav {
+  background-color: #131417;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  -webkit-box-shadow: 0px -5px 18px 0px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0px -5px 18px 0px rgba(0,0,0,0.6);
+  box-shadow: 0px -5px 18px 0px rgba(0,0,0,0.6);
+}
+
+.site-title {
+  font-size: 2rem;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: stretch;
+  height: 80px;
+}
+
+.nav li {
+  width: 33.4%;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.nav li.active > a {
+  color: #BE7DFF;
+}
+.nav li > a {
+    color: #73788A;
+}
+
+.nav li.active > a > div > img  {
+  filter: invert(56%) sepia(21%) saturate(1891%) hue-rotate(219deg) brightness(101%) contrast(101%);
+}
+
+.nav li.active::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 4px;
+  background: #BE7DFF;
+  left: 50%;
+  top: 0;
+  position: relative;
+  transform: translateX(-50%);
+}
+/* .nav li:hover {
+  background-color: #777;
+} */
+
+.icon {
+  width: 26px;
+  height: 26px;
+}
+
+.tab-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 52px;
+}
+.nav-text {
+  /* color: #73788A; */
+  text-transform: uppercase;
+  font-family: 'BLENDERPRO-BOLD';
+  margin-top: 6px
+}

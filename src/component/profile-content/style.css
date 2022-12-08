@@ -1,0 +1,94 @@
+.content {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: #202127;
+  padding: 20px;
+}
+.header {
+  background-color: #131417;
+  border-radius: 5px;
+  display: flex;
+  padding-left: 30px;
+}
+.header-text {
+  color: #73788A;
+  text-transform: uppercase;
+  font-family: 'BLENDERPRO-MEDIUM';
+}
+.active-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  background-color: #292C38;
+  border-radius: 5px;
+  height: 70px;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 7px;
+}
+
+.inactive-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  background-color: #41265B;
+  border-radius: 5px;
+  height: 70px;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 7px;
+}
+.numeric-icon {
+  width: 30px;
+  height: 30px;
+}
+.plus-icon {
+  width: 24px;
+  height: 24px;
+  background-color: #BE7DFF;
+  border-radius: 2px;
+  margin-left: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plus-text {
+  color: #fff;
+  margin-bottom: 2px;
+}
+.numeric-icon-dots {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.description {
+  display: flex;
+  align-items: center;
+}
+.active-text {
+  font-family: 'BLENDERPRO-MEDIUM';
+  color: #D5DDF9;
+  opacity: 1;
+  margin-left: 15px;
+}
+.inactive-text {
+  font-family: 'BLENDERPRO-MEDIUM';
+  color: #BE7DFF;
+  opacity: 1;
+  margin-left: 15px;
+}
+.logout {
+  height: 40px;
+  padding-bottom: 100px;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.logout span {
+  color: #C84242;
+  font-family: "BLENDERPRO-HEAVY"
+}
